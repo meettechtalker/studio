@@ -12,8 +12,8 @@ export default function AppLayout({
       <div className="min-h-screen">
         <Sidebar>
           <AppSidebar />
-          <SidebarRail />
         </Sidebar>
+        <SidebarRail />
         <SidebarInset>
           <AppHeader />
           <main className="p-4 sm:p-6 lg:p-8">

@@ -1,3 +1,58 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "user-avatar-1",
+      "description": "User avatar for Alex Doe",
+      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjEwMzE4OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user-avatar-2",
+      "description": "User avatar for Jane Smith",
+      "imageUrl": "https://images.unsplash.com/photo-1711645169736-53327e726205?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzYxMDMyOTIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "user-avatar-3",
+      "description": "User avatar for Sam Wilson",
+      "imageUrl": "https://images.unsplash.com/photo-1576110598658-096ae24cdb97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW4lMjBnbGFzc2VzfGVufDB8fHx8MTc2MDk2OTY3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man glasses"
+    },
+    {
+      "id": "user-avatar-4",
+      "description": "User avatar for Casey Lee",
+      "imageUrl": "https://images.unsplash.com/photo-1611010006414-523c0fc9a07a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJzb24lMjBuYXR1cmV8ZW58MHx8fHwxNzYwOTM0OTYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person nature"
+    },
+    {
+      "id": "post-image-1",
+      "description": "A beautiful sunset over the ocean",
+      "imageUrl": "https://images.unsplash.com/photo-1526608708065-67327b382a46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdW5zZXQlMjBvY2VhbnxlbnwwfHx8fDE3NjEwNDgxOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sunset ocean"
+    },
+    {
+      "id": "post-image-2",
+      "description": "A delicious-looking pizza",
+      "imageUrl": "https://images.unsplash.com/photo-1593246049226-ded77bf90326?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwaXp6YSUyMGZvb2R8ZW58MHx8fHwxNzYwOTk1MTYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pizza food"
+    },
+    {
+      "id": "post-image-3",
+      "description": "A modern architectural building",
+      "imageUrl": "https://images.unsplash.com/photo-1518436127045-3367819540bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzYwOTU4Njk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern architecture"
+    },
+    {
+      "id": "post-image-4",
+      "description": "A cat sleeping on a couch",
+      "imageUrl": "https://images.unsplash.com/photo-1543201245-c9031909fe6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXQlMjBzbGVlcGluZ3xlbnwwfHx8fDE3NjA5ODMyNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cat sleeping"
+    },
+    {
+      "id": "current-user-avatar",
+      "description": "Avatar for the current user",
+      "imageUrl": "https://images.unsplash.com/photo-1671866683421-b424d9b86c6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwZXJzb24lMjBzZWxmaWV8ZW58MHx8fHwxNzYwOTc3MDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person selfie"
+    }
+  ]
 }

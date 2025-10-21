@@ -9,20 +9,20 @@ export default function AppLayout({
 }) {
   return (
     <SidebarProvider>
-      <div className="min-h-screen">
         <Sidebar>
           <SidebarContent>
             <AppSidebar />
           </SidebarContent>
         </Sidebar>
-        <SidebarInset>
+        <div className="flex flex-col flex-1">
             <AppHeader />
-            <main className="p-4 sm:p-6 lg:p-8">
-                {children}
+            <main className="flex-1 p-4 sm:p-6 lg:p-8">
+                <SidebarInset>
+                    {children}
+                </SidebarInset>
             </main>
-        </SidebarInset>
+        </div>
         <SidebarRail />
-      </div>
     </SidebarProvider>
   );
 }

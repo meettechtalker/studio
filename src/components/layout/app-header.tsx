@@ -7,9 +7,7 @@ export default function AppHeader() {
       <div className="md:hidden">
         <SidebarTrigger />
       </div>
-      <div className="hidden group-data-[state=expanded]:md:hidden">
-        <UserNav />
-      </div>
+      <UserNav />
     </header>
   );
 }

@@ -26,15 +26,16 @@ export default function AppSidebar() {
         <SidebarMenu>
           {menuItems.map((item) => (
             <SidebarMenuItem key={item.href}>
-              <Link href={item.href} passHref>
-                <SidebarMenuButton
-                  isActive={pathname === item.href}
-                  tooltip={{ children: item.label, side: 'right' }}
-                >
+              <SidebarMenuButton
+                asChild
+                isActive={pathname === item.href}
+                tooltip={{ children: item.label, side: 'right' }}
+              >
+                <Link href={item.href}>
                   <item.icon />
                   <span>{item.label}</span>
-                </SidebarMenuButton>
-              </Link>
+                </Link>
+              </SidebarMenuButton>
             </SidebarMenuItem>
           ))}
         </SidebarMenu>
@@ -44,12 +45,12 @@ export default function AppSidebar() {
           <UserNav />
          </div>
          <div className="hidden group-data-[state=expanded]:block">
-            <Link href="/">
-                <SidebarMenuButton>
-                    <LogOut />
-                    <span>Logout</span>
-                </SidebarMenuButton>
-            </Link>
+           <SidebarMenuButton asChild>
+              <Link href="/">
+                  <LogOut />
+                  <span>Logout</span>
+              </Link>
+           </SidebarMenuButton>
          </div>
       </SidebarFooter>
     </>

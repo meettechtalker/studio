@@ -1,6 +1,6 @@
 import AppHeader from '@/components/layout/app-header';
 import AppSidebar from '@/components/layout/app-sidebar';
-import { Sidebar, SidebarInset, SidebarProvider } from '@/components/ui/sidebar';
+import { Sidebar, SidebarInset, SidebarProvider, SidebarRail } from '@/components/ui/sidebar';
 
 export default function AppLayout({
   children,
@@ -12,6 +12,7 @@ export default function AppLayout({
       <div className="min-h-screen">
         <Sidebar>
           <AppSidebar />
+          <SidebarRail />
         </Sidebar>
         <SidebarInset>
           <AppHeader />

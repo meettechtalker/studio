@@ -26,7 +26,7 @@ export default function AppSidebar() {
         <SidebarMenu>
           {menuItems.map((item) => (
             <SidebarMenuItem key={item.href}>
-              <Link href={item.href} passHref legacyBehavior>
+              <Link href={item.href} passHref>
                 <SidebarMenuButton
                   isActive={pathname === item.href}
                   tooltip={{ children: item.label, side: 'right' }}
@@ -44,7 +44,7 @@ export default function AppSidebar() {
           <UserNav />
          </div>
          <div className="hidden group-data-[state=expanded]:block">
-            <Link href="/" passHref legacyBehavior>
+            <Link href="/">
                 <SidebarMenuButton>
                     <LogOut />
                     <span>Logout</span>
